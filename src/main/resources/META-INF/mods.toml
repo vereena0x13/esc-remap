@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+#issueTrackerURL="https://github.com/vereena0x13/EscRemap/issues"
+showAsResourcePack=false
+license="MIT"
+
+[[mods]]
+description="Allows remapping the escape key in Minecraft."
+modId="escremap"
+version="${mod_version}"
+displayName="EscRemap"
+#logoFile="logo.png"
+authors="vereena0x13"
+#credits=""
+
+[[dependencies.escremap]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.escremap]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
