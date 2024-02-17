@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
-#issueTrackerURL="https://github.com/vereena0x13/EscRemap/issues"
+issueTrackerURL="https://github.com/vereena0x13/esc-remap/issues"
 showAsResourcePack=false
 license="MIT"
 
